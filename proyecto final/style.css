@@ -29,32 +29,35 @@
   width: 100%;
 }
 
-.logo {
-  margin: 0px;
-  padding: 0px;
-  width: 250px;
-  height: auto;
-  display: block;
+.quienessomos {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, rgb(188, 232, 249), white);
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+.titulo-inicial {
+  min-height: 10vh;
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
 }
 
 .contenido2 {
   flex: 1;
 }
 
-.titulo-inicial {
-  align-items: center;
-  min-height: 10vh;
-  text-align: center;
-  padding: 20px 18px;
-  display: inline-block;
-  display: flex;
-  flex-direction: column;
-  margin: 60px;
-}
-
-.quienessomos {
-  min-height: 100vh;
-  background: linear-gradient(to bottom, rgb(188, 232, 249), white);
+.logo {
+  margin: 0px;
+  padding: 0px;
+  width: 250px;
+  height: auto;
+  display: block;
 }
 
 .trabajos {
@@ -82,12 +85,20 @@
   background: linear-gradient(to bottom, rgb(188, 232, 249), white);
 }
 
+.contenido3 {
+  flex: 1;
+}
+
 .logo {
   margin: 0px;
   padding: 0px;
   width: 250px;
   height: auto;
   display: block;
+}
+
+.dropdown-menu {
+  --bs-dropdown-border-width: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

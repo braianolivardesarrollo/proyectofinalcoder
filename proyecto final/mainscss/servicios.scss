@@ -9,10 +9,16 @@
     color: rgb(10, 1, 1);
     background: linear-gradient(to bottom, rgb(188, 232, 249), white);
 }
+.contenido3{
+    flex: 1;
+}
 .logo{
     margin: 0px;
     padding: 0px;
     width: 250px;
     height: auto;
     display: block;
+}
+.dropdown-menu{
+ --bs-dropdown-border-width: 0;
 }
