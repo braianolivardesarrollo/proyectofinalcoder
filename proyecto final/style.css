@@ -26,7 +26,8 @@
 .imageninicio {
   margin: 0px;
   padding: 0px;
-  width: 100%;
+  width: 80%;
+  height: 10%;
 }
 
 .quienessomos {
@@ -99,6 +100,14 @@
 
 .dropdown-menu {
   --bs-dropdown-border-width: 0;
+}
+
+.contenedorservicios {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  gap: 16px;
+  align-items: start;
 }
 
 /*# sourceMappingURL=style.css.map */
