@@ -21,35 +21,12 @@
 }
 .imageninicio{
     margin: 0px;
-    padding: 0px;
+    padding: 20px;
     width: 80%;
     height: 10%;
 }
-// .dropdown-menu{
-//     list-style: none;
-//     li{
-//         background-color: rgb(6, 211, 252);
-//         text-decoration: underline;
-//         a{
-//             color: #060606 !important;
-//             text-decoration: none;
-//             background-color: rgb(75, 198, 244) !important;
-//             text-decoration-line: rgb(75, 198, 244) !important;
-//         };
-//     }
-// }
+
 .titulo-principal{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
-    width: 100%;
-}
-.menu{
-    position: relative;
-    .dropdown-menu{
-        list-style: none;
-        right: 0;
-        left: auto;
-    }
+   text-align: center;
+   color: rgb(7, 7, 0);
 }

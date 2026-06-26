@@ -25,40 +25,14 @@
 
 .imageninicio {
   margin: 0px;
-  padding: 0px;
+  padding: 20px;
   width: 80%;
   height: 10%;
 }
 
-.dropdown-menu {
-  list-style: none;
-}
-.dropdown-menu li {
-  background-color: rgb(6, 211, 252);
-  text-decoration: underline;
-}
-.dropdown-menu li a {
-  color: #060606 !important;
-  text-decoration: none;
-  background-color: rgb(75, 198, 244) !important;
-  text-decoration-line: rgb(75, 198, 244) !important;
-}
-
 .titulo-principal {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-  width: 100%;
-}
-
-.menu {
-  position: relative;
-}
-.menu .dropdown-menu {
-  list-style: none;
-  right: 0;
-  left: auto;
+  text-align: center;
+  color: rgb(7, 7, 0);
 }
 
 .quienessomos {
@@ -139,6 +113,28 @@
   grid-auto-rows: auto;
   gap: 16px;
   align-items: start;
+}
+
+.titulo-servicios {
+  text-align: center;
+}
+
+.titulo-productos {
+  color: #030300 !important;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.contenido6 {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: none;
+  padding: 20px;
+  align-items: center;
+  color: rgb(10, 1, 1);
+  background: linear-gradient(to bottom, rgb(188, 232, 249), white);
 }
 
 /*# sourceMappingURL=style.css.map */

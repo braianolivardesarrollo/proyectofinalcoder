@@ -30,6 +30,13 @@
   height: 10%;
 }
 
+.titulo-principal {
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+  background-color: yellow;
+}
+
 .quienessomos {
   min-height: 100vh;
   background: linear-gradient(to bottom, rgb(188, 232, 249), white);
@@ -108,6 +115,23 @@
   grid-auto-rows: auto;
   gap: 16px;
   align-items: start;
+}
+
+.titulo-productos {
+  color: #def605 !important;
+  font-size: 1.5rem;
+}
+
+.contenido6 {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: none;
+  padding: 20px;
+  align-items: center;
+  color: rgb(10, 1, 1);
+  background: linear-gradient(to bottom, rgb(188, 232, 249), white);
 }
 
 /*# sourceMappingURL=style.css.map */
