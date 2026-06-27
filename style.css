@@ -125,6 +125,15 @@
   text-align: center;
 }
 
+.contenido4 {
+  flex: 1;
+}
+
+.productos {
+  display: flex;
+  flex-direction: column;
+}
+
 .contenido6 {
   min-height: 100vh;
   margin: 0;
