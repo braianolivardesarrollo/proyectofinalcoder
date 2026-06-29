@@ -28,12 +28,19 @@ align-items: center;
 }
 .trabajos{
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columnas */
-  gap: 16px;                               /* separación */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 16px;
 }
 .trabajos img{
-  width: 100%;
-  height: 180px;              /* tamaño fijo */
-  object-fit: cover;          /* recorta para no deformar */
+  width: 100% ;
+  height: 250px;     
+  object-fit: cover;   
   display: block;
+  object-fit: cover;
+}
+.texto{
+  width: 100%;
+  text-align: justify;
+  font-size: 1.25rem;
+  margin: 0;
 }
