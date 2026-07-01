@@ -148,15 +148,14 @@
   flex-direction: column;
   background-color: none;
   padding: 20px;
-  align-items: center;
   color: rgb(10, 1, 1);
   background: linear-gradient(to bottom, rgb(188, 232, 249), white);
 }
 
 .formulario {
-  width: 600px;
+  width: 100%;
   padding: 10px;
-  margin: 16px;
+  margin: 16px 0;
   border: 2px solid;
   border-radius: 15px;
   background-color: beige;
