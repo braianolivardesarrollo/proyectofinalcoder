@@ -1,55 +1,213 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <title>Quiénes Somos</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="./style.css">
-    <title>quienes somos</title>
+
 </head>
+
 <body class="quienessomos">
-  <div class="contenido2">
-    <h1 class="titulo-inicial">QUIENES SOMOS</h1>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="./index.html">INICIO</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./quienes somos.html">QUIENES SOMOS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./servicios.html">SERVICIOS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./productos.html">PRODUCTOS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./contacto.html">CONTACTO</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="./preguntas frecuentes.html">PREGUNTAS FRECUENTES</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<main class="trabajos">
-  <img src="./IMAGENES/chicos trabajando6.png" alt="gente trabajando">
-  <img src="./IMAGENES/chicostrabajando.png" alt="gente trabajando">
-  <img src="./IMAGENES/chicostrabajando3.png" alt="gente trabajando">
-  <img src="./IMAGENES/trabajando4.jpg" alt="gente trabajando">
-  <img src="./IMAGENES/trabajando5.jpeg" alt="gente trabajando">
-  <img src="./IMAGENES/chicostrabajando2.png" alt="gente trabajando">
-</main>
- <h5 class="texto">SOMOS UN EQUIPO DE ESPECIALISTAS DEDICADOS AL DESARROLLO Y PLANIFICACIÓN DE PROYECTOS DE IMPRESIONES 3D EN LOTE, NOS OCUPAMOS DEL PLANEAMIENTO, BASADO EN LA INVERSION DEL CLIENTE Y LUEGO EN EL DESARROLLO DEL PROYECTO. COMPRAS, INSTALACIÓN DE EQUIPOS, ADECUACION DE LAS INSTALACIONES Y ABASTECIMIENTO DE INSUMOS</H5>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    </div> 
-    <footer>
-      <img class="logo" src="./IMAGENES/logo.png" alt="logo INSERV3D">
-    </footer>
+
+<div class="contenido2">
+
+    <h1 class="titulo-inicial" data-aos="zoom-in">
+        QUIÉNES SOMOS
+    </h1>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="./index.html">
+                INICIO
+            </a>
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./quienes somos.html">
+                            QUIÉNES SOMOS
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./servicios.html">
+                            SERVICIOS
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">
+                            PRODUCTOS
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">
+                            CONTACTO
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./preguntas frecuentes.html">
+                            PREGUNTAS FRECUENTES
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <section class="container py-5">
+
+        <h2 class="subtitulo"
+            data-aos="fade-up">
+
+            Especialistas en Impresión 3D
+
+        </h2>
+
+        <p class="introduccion"
+            data-aos="fade-up"
+            data-aos-delay="150">
+
+            Acompañamos a nuestros clientes desde la planificación de su proyecto
+            hasta la puesta en marcha de sus equipos, brindando asesoramiento,
+            instalación y soporte técnico especializado.
+
+        </p>
+
+    </section>
+
+
+    <main class="container trabajos">
+
+        <div class="row g-4">
+
+            <div class="col-lg-4 col-md-6">
+                <img src="./IMAGENES/chicos trabajando6.png"
+                    class="img-fluid shadow"
+                    data-aos="zoom-in">
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <img src="./IMAGENES/chicostrabajando.png"
+                    class="img-fluid shadow"
+                    data-aos="zoom-in"
+                    data-aos-delay="100">
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <img src="./IMAGENES/chicostrabajando3.png"
+                    class="img-fluid shadow"
+                    data-aos="zoom-in"
+                    data-aos-delay="200">
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <img src="./IMAGENES/trabajando4.jpg"
+                    class="img-fluid shadow"
+                    data-aos="zoom-in">
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <img src="./IMAGENES/trabajando5.jpeg"
+                    class="img-fluid shadow"
+                    data-aos="zoom-in"
+                    data-aos-delay="100">
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <img src="./IMAGENES/chicostrabajando2.png"
+                    class="img-fluid shadow"
+                    data-aos="zoom-in"
+                    data-aos-delay="200">
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <section class="container py-5">
+
+        <div class="descripcion"
+            data-aos="fade-right">
+
+            <h3>Nuestra experiencia</h3>
+
+            <p>
+
+                Somos un equipo de especialistas dedicados al desarrollo y
+                planificación de proyectos de impresión 3D en lote.
+
+                Analizamos la inversión del cliente para ofrecer la solución más
+                adecuada y nos encargamos de todo el proceso: compra de equipos,
+                instalación, adecuación de las instalaciones y abastecimiento de
+                insumos, brindando un servicio integral y personalizado.
+
+            </p>
+
+        </div>
+
+    </section>
+
+</div>
+
+
+<footer>
+
+    <img class="logo"
+        src="./IMAGENES/logo.png"
+        alt="Logo Inserv3D"
+        data-aos="zoom-in">
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+AOS.init({
+
+    duration:1000,
+    once:true
+
+});
+
+</script>
+
 </body>
+
 </html>
