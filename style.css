@@ -36,67 +36,47 @@
 
 .quienessomos {
   min-height: 100vh;
-  background: linear-gradient(to bottom, #bce8f9, white);
+  background: linear-gradient(to bottom, rgb(188, 232, 249), white);
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
 }
 
 .titulo-inicial {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: bold;
-  margin: 30px 0;
+  min-height: 10vh;
+  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
 }
 
-.trabajo-img {
-  width: 100%;
-  height: 260px;
-  object-fit: cover;
-  border-radius: 15px;
-  transition: 0.35s ease;
-}
-.trabajo-img:hover {
-  transform: scale(1.04);
-}
-
-.descripcion {
-  max-width: 1000px;
-  margin: 60px auto;
-  padding: 40px;
-  background: white;
-  border-radius: 18px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  text-align: center;
-}
-.descripcion h2 {
-  margin-bottom: 25px;
-  font-size: 2rem;
-  font-weight: bold;
-}
-.descripcion p {
-  font-size: 1.15rem;
-  line-height: 1.8;
+.contenido2 {
+  flex: 1;
 }
 
 .logo {
+  margin: 0px;
+  padding: 0px;
+  width: 250px;
+  height: auto;
   display: block;
-  width: 180px;
-  margin: 40px auto;
 }
 
-@media (max-width: 768px) {
-  .titulo-inicial {
-    font-size: 2rem;
-  }
-  .trabajo-img {
-    height: 220px;
-  }
-  .descripcion {
-    padding: 25px;
-    margin: 40px 20px;
-  }
-  .descripcion p {
-    font-size: 1rem;
-  }
+.trabajos img {
+  width: 500px;
+  height: 500px;
 }
+
+.texto {
+  width: 100%;
+  text-align: justify;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
 .servicios {
   min-height: 100vh;
   margin: 0;
