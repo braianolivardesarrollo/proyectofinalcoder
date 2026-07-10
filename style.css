@@ -30,8 +30,18 @@
 }
 
 .titulo-principal {
-  text-align: center;
-  color: rgb(7, 7, 0);
+  width: 100%;
+  background-color: #020b18;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.titulo-principal img {
+  width: 300px;
+  height: 150px;
+  object-fit: contain;
 }
 
 .quienessomos {
@@ -99,6 +109,21 @@
   grid-template-columns: 100%;
 }
 
+.titulo-principal {
+  width: 100%;
+  background-color: #020b18;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.titulo-principal img {
+  width: 300px;
+  height: 150px;
+  object-fit: contain;
+}
+
 .servicios {
   min-height: 100vh;
   margin: 0;
@@ -139,6 +164,21 @@
   text-align: center;
 }
 
+.titulo-principal {
+  width: 100%;
+  background-color: #020b18;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.titulo-principal img {
+  width: 300px;
+  height: 150px;
+  object-fit: contain;
+}
+
 .titulo-productos {
   color: #030300 !important;
   font-size: 1.5rem;
@@ -152,6 +192,21 @@
 .productos {
   display: flex;
   flex-direction: column;
+}
+
+.titulo-principal {
+  width: 100%;
+  background-color: #020b18;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.titulo-principal img {
+  width: 300px;
+  height: 150px;
+  object-fit: contain;
 }
 
 .contacto {
@@ -174,6 +229,21 @@
   background-color: beige;
 }
 
+.titulo-principal {
+  width: 100%;
+  background-color: #020b18;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.titulo-principal img {
+  width: 300px;
+  height: 150px;
+  object-fit: contain;
+}
+
 .contenido6 {
   min-height: 100vh;
   margin: 0;
@@ -184,6 +254,21 @@
   align-items: center;
   color: rgb(10, 1, 1);
   background: linear-gradient(to bottom, rgb(188, 232, 249), white);
+}
+
+.titulo-principal {
+  width: 100%;
+  background-color: #020b18;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.titulo-principal img {
+  width: 300px;
+  height: 150px;
+  object-fit: contain;
 }
 
 /*# sourceMappingURL=style.css.map */
