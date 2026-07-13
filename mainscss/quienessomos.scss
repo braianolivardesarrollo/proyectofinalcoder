@@ -2,11 +2,8 @@
 .quienessomos{
     min-height: 100vh;
     background: linear-gradient(to bottom, rgb(188, 232, 249), white);
-    margin: 60px;
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    align-items: center;
 }
 .titulo-inicial{
 min-height: 10vh;
@@ -46,13 +43,15 @@ align-items: center;
 }
 .hero-portada{
   height: 100vh;
-  background-image: url(../IMAGENES/nosotros.png);
+  background-image: url(../IMAGENES/portada.png );
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  align-items: flex-end;
+  padding-bottom: 40px;
 }
 .hero-portada h1{
   color: white;
