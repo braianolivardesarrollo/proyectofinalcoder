@@ -1,23 +1,42 @@
+.logo {
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  height: auto;
+  display: block;
+}
+
+.banner {
+  width: 100%;
+  background-color: #020b18;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.banner img {
+  width: 300px;
+  height: 150px;
+  object-fit: contain;
+}
+
 .pantalla {
   min-height: 100vh;
   margin: 0;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 0;
   align-items: center;
   color: rgb(10, 1, 1);
   background: linear-gradient(to bottom, rgb(188, 232, 249), white);
 }
 
-.contenido {
-  flex: 1;
+.portada {
+  padding: 30px 30px;
   width: 100%;
-}
-
-.imageninicio {
-  padding: 20px;
-  width: 80%;
   height: auto;
+  align-items: center;
 }
 
 .quienessomos {
@@ -154,10 +173,23 @@
   object-fit: contain;
 }
 
-.titulo-productos {
-  color: #030300 !important;
-  font-size: 1.5rem;
-  text-align: center;
+.hero-servicios {
+  height: 100vh;
+  background-image: url(../IMAGENES/portada.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-end;
+  padding-bottom: 40px;
+}
+
+.hero-servicios h1 {
+  color: white;
+  font-size: 4rem;
+  text-shadow: 2px 2px 8px black;
 }
 
 .contenido4 {
@@ -182,6 +214,25 @@
   width: 300px;
   height: 150px;
   object-fit: contain;
+}
+
+.hero-productos {
+  height: 100vh;
+  background-image: url(../IMAGENES/portada.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-end;
+  padding-bottom: 40px;
+}
+
+.hero-productos h1 {
+  color: white;
+  font-size: 4rem;
+  text-shadow: 2px 2px 8px black;
 }
 
 .contacto {

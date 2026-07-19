@@ -3,19 +3,16 @@
     margin: 0;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 0;
     align-items: center;
     color: rgb(10, 1, 1);
     background: linear-gradient(to bottom, rgb(188, 232, 249), white);
 }
-.contenido{
-    flex: 1;
-    width: 100%;
-}
 
-.imageninicio{
-    padding: 20px;
-    width: 80%;
+.portada{
+    padding: 30px 30px;
+    width: 100%;
     height: auto;
+    align-items: center;
 }
 
