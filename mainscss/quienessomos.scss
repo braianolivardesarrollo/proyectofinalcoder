@@ -23,18 +23,12 @@ align-items: center;
     height: auto;
     display: block;
 }
-// .trabajos{
-//   display: grid;
-//   grid-template-columns: repeat(3, 1fr);
-//   gap: 16px;
-// }
+
 .trabajos img{
   width: 500px;
   height: 500px;
-  // object-fit: cover;
-  // display: block;
-  // object-fit: cover;
 }
+
 .texto{
   width: 100%;
   text-align: justify;
@@ -62,9 +56,7 @@ align-items: center;
   display: grid;
   grid-template-columns: 100%;
 }
-.servicio-tecnico{
 
-}
 .titulo-principal{
     width:100%;
     background-color:#020b18;
