@@ -130,7 +130,7 @@
 
 .hero-servicios {
   height: 100vh;
-  background-image: url(../IMAGENES/portada.png);
+  background-image: url(IMAGENES/portada.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -159,7 +159,7 @@
 
 .hero-productos {
   height: 100vh;
-  background-image: url(../IMAGENES/portada.png);
+  background-image: url(IMAGENES/portada.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -193,7 +193,7 @@
 
 .hero-contacto {
   height: 100vh;
-  background-image: url(../IMAGENES/portada.png);
+  background-image: url(IMAGENES/portada.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -218,7 +218,7 @@
 
 .hero-preguntas {
   height: 100vh;
-  background-image: url(../IMAGENES/portada.png);
+  background-image: url(IMAGENES/portada.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
