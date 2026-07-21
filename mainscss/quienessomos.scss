@@ -1,17 +1,16 @@
-
 .quienessomos{
-    min-height: 100vh;
-    background: linear-gradient(to bottom, rgb(188, 232, 249), white);
-    display: flex;
-    flex-direction: column;
+ min-height: 100vh;
+ background: linear-gradient(to bottom, rgb(188, 232, 249), white);
+ display: flex;
+ flex-direction: column;
 }
 .titulo-inicial{
-min-height: 10vh;
-margin: 60px;
-display: flex;
-flex-direction: column;
-padding: 20px;
-align-items: center;
+ min-height: 10vh;
+ margin: 60px;
+ display: flex;
+ flex-direction: column;
+ padding: 20px;
+ align-items: center;
 }
 .contenido2{
    flex: 1;
