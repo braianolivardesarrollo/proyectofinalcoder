@@ -1,27 +1,9 @@
-.contenido6{
+.preguntasfrecuentes{
     min-height: 100vh;
-    margin: 0;
+    background: linear-gradient(to bottom, rgb(188, 232, 249), white);
     display: flex;
     flex-direction: column;
-    background-color: none;
-    padding: 20px;
-    align-items: center;
-    color: rgb(10, 1, 1);
-    background: linear-gradient(to bottom, rgb(188, 232, 249), white);
-}
-.titulo-principal{
-    width:100%;
-    background-color:#020b18;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding:10px 0;
-}
-
-.titulo-principal img{
-    width:300px;
-    height:150px;
-    object-fit:contain;
+    
 }
 
 .hero-preguntas{
@@ -32,7 +14,6 @@
   background-position: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   align-items: flex-end;
   padding-bottom: 40px;
 }
