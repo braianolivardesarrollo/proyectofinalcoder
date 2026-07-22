@@ -20,14 +20,7 @@
   display: block;
 }
 
-.pantalla {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(to bottom, rgb(188, 232, 249), white);
-}
-
-.hero-inicio {
+.hero {
   height: 100vh;
   background-image: url(../IMAGENES/portada.png);
   background-size: contain;
@@ -39,10 +32,17 @@
   padding-bottom: 40px;
 }
 
-.hero-inicio h1 {
+.hero h1 {
   color: white;
   font-size: 4rem;
   text-shadow: 2px 2px 8px black;
+}
+
+.pantalla {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, rgb(188, 232, 249), white);
 }
 
 .quienessomos {
@@ -77,25 +77,6 @@
   margin: 0;
 }
 
-.hero-portada {
-  height: 100vh;
-  background-image: url(../IMAGENES/portada.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-items: flex-end;
-  padding-bottom: 40px;
-}
-
-.hero-portada h1 {
-  color: white;
-  font-size: 4rem;
-  text-shadow: 2px 2px 8px black;
-}
-
 .portada1 {
   display: grid;
   grid-template-columns: 100%;
@@ -128,24 +109,6 @@
   text-align: center;
 }
 
-.hero-servicios {
-  height: 100vh;
-  background-image: url(../IMAGENES/portada.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  padding-bottom: 40px;
-}
-
-.hero-servicios h1 {
-  color: white;
-  font-size: 4rem;
-  text-shadow: 2px 2px 8px black;
-}
-
 .contenido4 {
   flex: 1;
 }
@@ -155,24 +118,6 @@
   background: linear-gradient(to bottom, rgb(188, 232, 249), white);
   display: flex;
   flex-direction: column;
-}
-
-.hero-productos {
-  height: 100vh;
-  background-image: url(../IMAGENES/portada.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  padding-bottom: 40px;
-}
-
-.hero-productos h1 {
-  color: white;
-  font-size: 4rem;
-  text-shadow: 2px 2px 8px black;
 }
 
 .contacto {
@@ -191,47 +136,11 @@
   background-color: beige;
 }
 
-.hero-contacto {
-  height: 100vh;
-  background-image: url(../IMAGENES/portada.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  padding-bottom: 40px;
-}
-
-.hero-contacto h1 {
-  color: white;
-  font-size: 4rem;
-  text-shadow: 2px 2px 8px black;
-}
-
 .preguntasfrecuentes {
   min-height: 100vh;
   background: linear-gradient(to bottom, rgb(188, 232, 249), white);
   display: flex;
   flex-direction: column;
-}
-
-.hero-preguntas {
-  height: 100vh;
-  background-image: url(../IMAGENES/portada.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  padding-bottom: 40px;
-}
-
-.hero-preguntas h1 {
-  color: white;
-  font-size: 4rem;
-  text-shadow: 2px 2px 8px black;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -27,23 +27,7 @@
   font-size: 1.25rem;
   margin: 0;
 }
-.hero-portada{
-  height: 100vh;
-  background-image: url(../IMAGENES/portada.png );
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-items: flex-end;
-  padding-bottom: 40px;
-}
-.hero-portada h1{
-  color: white;
-  font-size: 4rem;
-  text-shadow: 2px 2px 8px black;
-}
+
 .portada1{
   display: grid;
   grid-template-columns: 100%;
